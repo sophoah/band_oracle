@@ -1,7 +1,15 @@
-node_modules
-artifacts
-.env*
-package-lock.json
-yarn.lock
-cache
-build
+# Compiler files
+cache/
+out/
+
+# Ignores development broadcast logs
+broadcast/
+
+# Docs
+docs/
+
+# Dotenv file
+.env
+
+# libs
+lib/
